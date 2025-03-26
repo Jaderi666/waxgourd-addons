@@ -1,0 +1,27 @@
+name: "Wewe RSS"
+description: "A RSS service based on Wewe RSS"
+version: "1.0.0"
+slug: "wewe_rss"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+ports:
+  4000/tcp: 4000
+map:
+  - data:rw
+options:
+  auth_code: "991260987"
+  feed_mode: ""
+  cron_expression: ""
+  max_request_per_minute: 60
+  server_origin_url: ""
+schema:
+  auth_code: "str"
+  feed_mode: "str?"
+  cron_expression: "str?"
+  max_request_per_minute: "int?"
+  server_origin_url: "str?"
