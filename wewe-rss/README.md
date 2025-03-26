@@ -19,7 +19,7 @@ A RSS service for Home Assistant based on Wewe RSS.
 Example add-on configuration:
 
 ```yaml
-auth_code: "991260987"
+auth_code: "123456"
 feed_mode: "fulltext"
 cron_expression: "35 5,17 * * *"
 max_request_per_minute: 60
